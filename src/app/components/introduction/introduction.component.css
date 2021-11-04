@@ -1,0 +1,33 @@
+.background {
+    background-image: linear-gradient(to right, #010101, #090a1e, #010101);
+    width: 100%;
+    height: calc(100vh - 50px);
+    color: white;
+}
+
+h2 {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content p {
+    max-width: 600px;
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.content .introduction-wallpaper {
+    justify-content: center;
+}
+
+.introduction-wallpaper img {
+    height: calc(80vh - 80px);
+    filter: drop-shadow(3px 3px 8px #000);
+}

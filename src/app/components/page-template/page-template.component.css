@@ -1,0 +1,36 @@
+.menu {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #010101, #090a1e, #010101);
+    height: 50px;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #01010100;
+}
+
+nav li:not(last-child) {
+    margin-left: 25px;
+}
+
+nav li:hover {
+    color: #F8FEFE;
+    transition: 0.7s;
+    border-bottom: 4px solid #F8FEFE;
+    padding-bottom: 5px;
+}
+
+nav li:hover a {
+    color: #F8FEFE;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #C0DAFF;
+    font-size: 18px;
+}

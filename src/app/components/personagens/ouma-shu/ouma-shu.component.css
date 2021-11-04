@@ -1,0 +1,6 @@
+.background {
+    background-image: linear-gradient(to bottom, #04030B 1%, #F8FEFE 99%);
+    background-color: #F8FEFE;
+    width: 100vw;
+    height: calc(100vh - 50px);
+}
