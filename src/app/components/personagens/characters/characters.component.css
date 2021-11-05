@@ -1,0 +1,15 @@
+.background {
+    box-sizing: border-box;
+    width: calc(100vw - 50px);
+    height: calc(100vh - 50px);
+}
+
+.logo {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 300px;
+}

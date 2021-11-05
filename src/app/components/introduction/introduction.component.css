@@ -1,33 +1,66 @@
-.background {
-    background-image: linear-gradient(to right, #010101, #090a1e, #010101);
-    width: 100%;
-    height: calc(100vh - 50px);
-    color: white;
+* {
+  font-family: 'Titillium Web', sans-serif;
 }
 
-h2 {
-    padding: 30px 0;
-    text-align: center;
+.background-image {
+    background-image: url("../../../assets/background_2.jpg");
+    background-position: top;
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+
+.background-image img {
+    width: 500px;
+    padding: 5%;
 }
 
 .content {
     display: flex;
-    max-width: 1200px;
-    margin: auto;
+    width: 100%;
+    background: rgb(174,148,213);
+    background: linear-gradient(90deg, rgba(174,148,213,0.3818569664193803) 0%, rgba(241,182,242,0.3818569664193803) 22%, rgba(205,164,226,0.23339758266587884) 41%, rgba(99,111,181,1) 100%);
+    justify-content: center;
+    padding: 50px 0;
 }
 
-.content p {
-    max-width: 600px;
+.alinhador {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinhador h2 {
+    text-align: center;
+    color: #FA65A5;
+}
+
+.alinhador p {
+    max-width: 1000px;
     margin-right: 5%;
     text-align: justify;
     font-size: 16px;
 }
 
-.content .introduction-wallpaper {
-    justify-content: center;
+.resume-content {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-.introduction-wallpaper img {
-    height: calc(80vh - 80px);
-    filter: drop-shadow(3px 3px 8px #000);
+.resume-content:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+    padding-top: 30px;
+}
+
+.resume-title-and-description {
+    flex: 3;
+}
+
+.resume-image img {
+    flex: 1;
+    width: 200px;
+    height: 300px;
 }

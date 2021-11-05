@@ -1,0 +1,24 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.100);
+  margin-top: 30px;
+  max-width: 100vw;
+}
+
+.content-box {
+  display: flex;
+}
+
+.information {
+  flex: 2;
+  padding: 40px 60px;
+  text-align: justify;
+  font-weight: 400;
+}
+
+.image {
+  flex: 1;
+  padding: 0px 60px 0 0;
+}

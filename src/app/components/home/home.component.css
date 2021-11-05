@@ -1,9 +1,9 @@
 .background {
-    background-image: url("../../../assets/home.jpg");
+    background-image: url("../../../assets/background_5.jpg");
     width: 100%;
     height: calc(100vh - 50px);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }
 
@@ -30,18 +30,16 @@
     height: 100%;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 30px;
 }
 
 .logo img {
-    width: 220px;
-    height: 60px;
-    filter: drop-shadow(1px 3px 10px #E9F9F8);
+    width: 240px;
 }
 
 .gradient {
-    background-image: linear-gradient(to bottom, #F8FEFE, #3057A2, #F8FEFE, #F8FEFE);
+    background-image: linear-gradient(to bottom, #F8FEFE, #D91807, #F8FEFE, #F8FEFE);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
